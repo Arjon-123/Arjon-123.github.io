@@ -105,6 +105,15 @@ body {
     transform: scale(1.05);
 }
 
+.gh-button {
+    background-color:rgb(20, 28, 44);
+}
+
+.gh-button:hover {
+    background-color:rgb(5, 16, 43);
+    transform: scale(1.05);
+}
+
 .page2-button {
     background-color: #ff9800;
     color: #000;
