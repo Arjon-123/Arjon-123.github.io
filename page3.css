@@ -1,0 +1,116 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .nav-button {
+    background-color: #00ffff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #00cccc;
+  }
+  
+  /* Skills section */
+  .skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .skill {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  }
+  
+  .animated-icon {
+    font-size: 60px;
+    color: #00ffff;
+    animation: pulse 2s infinite;
+    margin-bottom: 15px;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.8; }
+  }
+  
+  .skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00ffff;
+  }
+  
+  .skill p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  /* Thank you section */
+  .thank-you {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+  }
+  
+  .thank-you h2 {
+    font-size: 2rem;
+    color: #ff69b4;
+    margin-bottom: 10px;
+  }
+  
+  .thank-you p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+  }
+  
